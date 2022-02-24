@@ -12,7 +12,6 @@ public class CalcTest {
 	public void testSum() {
 		int expected = 2;
 		int actual = this.calc.sum(1, 1);
-
 		assertEquals(expected, actual); // asserts that expected equals value
 	}
 
@@ -23,4 +22,5 @@ public class CalcTest {
 
 		assertEquals(expected, actual);
 	}
+
 }
